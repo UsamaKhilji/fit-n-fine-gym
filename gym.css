@@ -1,0 +1,279 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(1, 1, 17);
+    color: white;
+}
+
+/* nav  section */
+
+
+nav{
+  position:fixed;
+  top: 0%;
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(1, 1, 17);
+    box-shadow: 0px 2px 6px 2px rgb(29, 27, 27);
+}
+
+nav ul{
+    margin-right: 42px;
+    margin-top: 6px;
+
+}.logo{
+    margin-left: 13px;
+   font-size:22px;
+
+}
+
+
+nav ul a{
+    margin-inline: 20px;
+    color: white;
+    text-decoration: none;
+}
+ul a:hover{
+    color: rgb(2, 253, 2);
+    border-bottom: 2px solid rgb(2,253, 2);
+
+}
+
+
+
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(4, 181, 4);
+    color: white;
+    font-size: 18px;
+    border: none;
+
+}
+nav button:hover{
+    border: 2px solid green;
+    background-color: transparent;
+    color: white;
+}
+  
+
+/* Main section */
+  .main{
+    display: flex;
+    justify-content: center;
+    margin-top: 174px;
+    margin-right: 20px;
+  }.maintext {
+    margin-right: 220px;
+
+  }
+  
+  
+  
+  .main h1{
+    color:rgb(2,253, 2) ;
+    font-size: 77px;
+  }.main h2 {
+    font-size: 33px;
+    margin-top: 22px;
+  }
+  .main p{
+    color: silver;
+    margin-top: 22px;
+    
+  }.main button{
+    width: 140px;
+    height: 40px;
+    background-color:rgb(2,253, 2) ;
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-top: 22px;
+  }
+  
+  .main img{
+    margin-top: -5%;
+    margin-inline:-86px;
+    margin-right: 10px;
+    height: 395px;
+
+  }
+
+
+  /* card  section */
+.head {
+  text-align: center;
+  padding: 88px;
+  margin-top: 25px;
+}.head span{
+  color: red;
+}
+.train{
+  display: flex;
+  justify-content:center;
+}.train .card{
+  width: 330px;
+  height: 370px;
+  background-color: rgb(99, 99, 99,);
+  margin-inline: 12px;
+}.traintext{
+  padding: 22px;
+}.card a {
+  width: 80px;
+  padding: 6px;
+  background-color: red;
+  color: white;
+  position: relative;
+  top: 18px;
+  text-decoration: none;
+}
+.card img {
+  width: 100%;
+}
+img {
+  height: 400px;
+  width: 400px;
+}
+
+
+
+ /* slide section */
+.slidebar{
+  margin-top:20%;
+
+
+}
+ .img {
+  width: 900px;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+ }
+ .img img {
+  transition: 0.6s ease;
+  width: 29%;
+  margin-inline:22px;
+  border-radius: 15px;
+  height: 270px;
+
+ }.btn {
+  text-align: center;
+  padding: 55px;
+ }
+ .btn button {
+  width: 90px;
+  height: 28px;
+  background-color:rgb(2,253, 2) ;
+  color: white;
+  font-size: 19px;
+  border: none;
+  margin: 22px;
+  cursor: pointer;
+ }
+ .btn button:hover{
+  border: 2px solid green;
+  background-color: transparent;
+  color: white;
+ }
+/* Program section */
+
+ .program{
+  display: flex;
+  justify-content: center;
+ }.program .procard{
+  width: 350px;
+  height: 370px;
+  margin-inline:11px;
+  text-align: center;
+ } 
+  .program img{
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .procard:hover{
+    height: 426px;
+    transition: 0.7s ease;
+  }
+
+  /* COnnect section */
+  .connect {
+    text-align: center;
+  }
+  .connect input{
+    width: 400px;
+    padding: 11px;
+    border: none;
+    outline: none;
+    margin-top:11px;
+    font-size: 20px;
+    background-color:rgb(230, 241, 230) ;
+  }
+  
+  .connect input:hover{
+    border: 2px solid green;
+    background-color: transparent;
+    color: white;
+  }
+
+  #submit {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(4, 181, 4);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    font-size: 27px;
+    box-shadow: 0px 2px 6px 2px rgb(29, 27, 27);
+    text-align: center;
+  }#submit:hover{
+    border: 2px solid green;
+    background-color: transparent;
+    color: white;
+  }
+
+
+ /* Footer  section */
+
+  .footer{
+    margin-top: 55px;
+    background-color: rgb(199, 196, 196);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+  
+  }
+
+    /* card  section */
+
+    .joins{
+      display: none;
+      width: 180px;
+      padding: 22px;
+      position: absolute;
+      background-color: #fff;
+      text-align: center;
+      margin-left: 82%;
+      top: 14%;
+    }.joins input{
+      width: 165px;
+      padding: 4px;
+      outline: none;
+      margin-top: 11px;
+    }.joins button{
+      height: 30px;
+      width: 90px;
+      background-color: rgb(23, 79, 249);
+      color: white;
+      font-size: 22px;
+      border: none;
+      margin-top: 5%;
+    }
